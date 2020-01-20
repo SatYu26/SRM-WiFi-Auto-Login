@@ -12,13 +12,13 @@ In SRM Whenever you Want to connect to SRM WiFi, you need to connect Network Log
 * Please read the Requirement section below before proceeding.
 * And you are Ready to go.
 
-#### Scenario 1 ####
+#### FILES 1 ####
 
-![alt text](https://github.com/SatYu26/SRM-WiFi-Auto-Login/SS1.jpg)
+![alt text](https://github.com/SatYu26/SRM-WiFi-Auto-Login/blob/master/SS1.jpg)
 
-#### Scenario 2(Under motion) ####
+#### FILES 2 ####
 
-![alt text](https://github.com/SatYu26/SRM-WiFi-Auto-Login/SS2.jpg)
+![alt text](https://github.com/SatYu26/SRM-WiFi-Auto-Login/blob/master/SS2.jpg)
 
 ## Requirements ##
 * Python 3        (ADD TO PATH VARIABLE)
