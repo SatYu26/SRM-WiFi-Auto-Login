@@ -4,6 +4,8 @@ This is a Auto login for SRM wifi connection made Using Selenium driver.
 In SRM Whenever you Want to connect to SRM WiFi, you need to connect Network Login Page(i.e. 'https://192.168.10.3/connect/PortalMain') and enter your login credentials. So, for my Friends i have tried to make a automated program using selenium and geckodriver that will log in and fill up your credentials as soon as you start your PC.
 
 ## Description ##
+I have Created this Project such that whenever your PC will start it will first detect if the SRM WiFi is in Range or not. If it is in range it will proceed and first connect to it in PC and then log in using your registeration number and password in browser hence completing the WiFi Sign-Up process. Since i have used HeadLess browser you dont have to worry about Opening Browser also, everything will work in background without you even knowing and when it connects it will display on your screen.
+Also when it does not finds SRM Wifi in range it will close the program. You can even use it for your personal WiFi connection also juat by making few changes in code. ENJOY!!! :)
 
 ## Run Auto Login ##
 * Clone the repository and store the file named "run_script.bat" in this place "C:\Users\SATYAM\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
