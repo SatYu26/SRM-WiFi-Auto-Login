@@ -3,6 +3,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.options import Options
 import time
 
+# Used to make Headless Browser.
 options = Options()
 options.headless = True
 
