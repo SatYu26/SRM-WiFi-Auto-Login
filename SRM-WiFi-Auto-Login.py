@@ -12,10 +12,10 @@ driver.get('https://192.168.10.3/connect/PortalMain')
 time.sleep(5)
 Username = driver.find_element_by_id("LoginUserPassword_auth_username")
 # add your registeration number.
-Username.send_keys("sg9528")
+Username.send_keys("YOUR_REGISTER_NUMBER")
 
 Password = driver.find_element_by_id("LoginUserPassword_auth_password")
 # add your password number.
-Password.send_keys("Jaanu265!")
+Password.send_keys("YOUR_PASSWORD")
 
 driver.find_element_by_id("UserCheck_Login_Button").click()
