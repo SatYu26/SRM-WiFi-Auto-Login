@@ -7,7 +7,7 @@ options = Options()
 options.headless = True
 
 # add the path where you have installed the gecko driver with its name.
-driver = webdriver.Firefox(options=options, executable_path=r'C:\Users\SATYAM\My-GitHub-REPOSITORIES\SRM WIFI LOGIN\geckodriver.exe')
+driver = webdriver.Firefox(options=options, executable_path=r'E:\My-GitHub-REPOSITORIES\SRM WIFI LOGIN\geckodriver.exe')
 driver.get('https://192.168.10.3/connect/PortalMain')
 time.sleep(5)
 Username = driver.find_element_by_id("LoginUserPassword_auth_username")

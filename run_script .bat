@@ -3,7 +3,7 @@ netsh wlan connect ssid="SRM HOSTELS" name="SRM HOSTELS" >nul 2>&1
 if errorlevel 1 goto END
 
 :ERRORHANDLER
-cd "C:\Users\SATYAM\My-GitHub-REPOSITORIES\SRM WIFI LOGIN"
+cd "E:\My-GitHub-REPOSITORIES\SRM WIFI LOGIN"
 
 python SRM-WiFi-Auto-Login.py
 
